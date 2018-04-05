@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:paddingEnd="50dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingStart="50dp"
+    tools:context="com.matvappstudio.secretchat.login.LoginActivity">
+
+    <FrameLayout
+        android:id="@+id/edittext_address_box"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_rectangle_light">
+
+        <EditText
+            android:id="@+id/edittext_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:hint="Enter server address..." />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/edittext_nick_box"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_rectangle_light">
+
+        <EditText
+            android:id="@+id/edittext_nick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:background="@android:color/transparent"
+            android:hint="Enter nickname..." />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/rounded_rectangle_orange"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/btn_submit_text"
+        android:textColor="@color/lightPrimaryColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</FrameLayout>
+

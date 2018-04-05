@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SSChat</string>
+
+    <string name="create_chat">Create chat</string>
+    <string name="connect_to_chat">Connect to chat</string>
+    <string name="enter_nick_str">Please enter your nick</string>
+    <string name="btn_start_text">START</string>
+    <string name="btn_submit_text">SUBMIT</string>
+    <string name="input_server_address">Please enter server address</string>
+</resources>
